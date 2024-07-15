@@ -97,6 +97,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .hero-illustration::before, .functionalities-container::before {
@@ -109,6 +110,7 @@ header {
     background-repeat: no-repeat;
     right: -100px;
     top: -100px;
+    overflow: hidden;
 }
 
 .hero {
@@ -530,6 +532,7 @@ footer {
         flex-direction: row-reverse;
         max-width: 1400px;
         margin: auto;
+        overflow-x: hidden;
     }
 
     .hero-container .content-container {
@@ -605,6 +608,7 @@ footer {
         background-size: cover;
         z-index: -1;
         bottom: -200px;
+        overflow-x: hidden;
     }
 
     .title-container {
